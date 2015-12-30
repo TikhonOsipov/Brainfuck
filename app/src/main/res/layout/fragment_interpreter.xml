@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <EditText
+    <com.tixon.brainfuck.views.CodeEditText
         android:id="@+id/interpreter_et_source"
         android:hint="@string/source_code"
         android:inputType="textMultiLine"

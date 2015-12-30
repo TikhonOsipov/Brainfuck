@@ -49,6 +49,22 @@ public class Interpreter {
         return output;
     }
 
+    public void prepareForDebug() {
+        memory.clear();
+        inputPointer = 0;
+        output = "";
+    }
+
+    public void debug() {
+        if(code.hasNext()) {
+            performCommand(code.getCommand());
+        }
+    }
+
+    public int getCodePointer() {
+        return code.getCodePointer();
+    }
+
     private void performCommand(char command) {
         switch (command) {
             case LEFT_BRACKET:

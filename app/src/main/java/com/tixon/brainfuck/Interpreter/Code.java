@@ -87,6 +87,10 @@ public class Code {
         return sourceCode.get(codePointer);
     }
 
+    public int getCodePointer() {
+        return codePointer;
+    }
+
     public boolean hasNext() {
         return codePointer < sourceCode.size();
     }
