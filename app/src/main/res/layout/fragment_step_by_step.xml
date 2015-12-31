@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewMemorySBS"
+        android:layout_width="@dimen/memory_recycler_view_sbs_width"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="-"
+                android:id="@+id/button_decrease_value"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_sbs_height" />
+
+            <Button
+                android:text="+"
+                android:id="@+id/button_increase_value"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_sbs_height" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="<"
+                android:id="@+id/button_decrease_data_pointer"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_sbs_height" />
+
+            <Button
+                android:text=">"
+                android:id="@+id/button_increase_data_pointer"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_sbs_height" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="["
+                android:id="@+id/button_cycle_start"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_sbs_height" />
+
+            <Button
+                android:text="]"
+                android:id="@+id/button_cycle_end"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_sbs_height" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="."
+                android:id="@+id/button_output"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_sbs_height" />
+
+            <Button
+                android:text=","
+                android:id="@+id/button_input"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_sbs_height" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/extension_items"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text=":"
+                android:id="@+id/button_output_raw"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_sbs_height" />
+
+            <Button
+                android:text=";"
+                android:id="@+id/button_input_raw"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_sbs_height" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
