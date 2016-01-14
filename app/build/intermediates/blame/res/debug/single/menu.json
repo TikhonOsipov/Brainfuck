@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/tikhon/AndroidStudioProjects/Brainfuck/app/build/intermediates/res/merged/debug/menu/activity_main.xml",
+        "source": "/Users/tikhon/AndroidStudioProjects/Brainfuck/app/src/main/res/menu/activity_main.xml"
+    },
+    {
+        "merged": "/Users/tikhon/AndroidStudioProjects/Brainfuck/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/Users/tikhon/AndroidStudioProjects/Brainfuck/app/src/main/res/menu/activity_main_drawer.xml"
+    }
+]
