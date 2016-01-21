@@ -16,6 +16,7 @@ import android.view.MenuItem;
 
 import com.tixon.brainfuck.Interpreter.Interpreter;
 import com.tixon.brainfuck.fragments.FragmentInterpreter;
+import com.tixon.brainfuck.fragments.FragmentStepByStep;
 
 public class ActivityMain extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -87,9 +88,11 @@ public class ActivityMain extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
-            fm.beginTransaction().replace(R.id.main_container, FragmentInterpreter.newInstance()).commit();
+            fm.beginTransaction()
+                    .replace(R.id.main_container, FragmentInterpreter.newInstance()).commit();
         } else if (id == R.id.nav_gallery) {
-
+            fm.beginTransaction()
+                    .replace(R.id.main_container, FragmentStepByStep.newInstance()).commit();
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {

@@ -11,4 +11,5 @@
     <string name="button_start">Интерпретировать</string>
     <string name="nav_interpreter">Интерпретатор</string>
     <string name="step_by_step_mode">Пошаговый режим</string>
+    <string name="undo">Отменить</string>
 </resources>

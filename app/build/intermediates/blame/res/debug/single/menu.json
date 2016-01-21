@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/tikhon/AndroidStudioProjects/Brainfuck/app/build/intermediates/res/merged/debug/menu/menu_step_by_step.xml",
+        "source": "/Users/tikhon/AndroidStudioProjects/Brainfuck/app/src/main/res/menu/menu_step_by_step.xml"
+    },
+    {
         "merged": "/Users/tikhon/AndroidStudioProjects/Brainfuck/app/build/intermediates/res/merged/debug/menu/activity_main.xml",
         "source": "/Users/tikhon/AndroidStudioProjects/Brainfuck/app/src/main/res/menu/activity_main.xml"
     },

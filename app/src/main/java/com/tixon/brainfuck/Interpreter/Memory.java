@@ -21,6 +21,14 @@ public class Memory {
         dataPointer = 0;
     }
 
+    public ArrayList<Long> getData() {
+        return this.memory;
+    }
+
+    public int getDataPointer() {
+        return this.dataPointer;
+    }
+
     public long getValue() {
         return memory.get(dataPointer);
     }
